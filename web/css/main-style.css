@@ -1,2 +1,59 @@
+* {
+    box-sizing: border-box;
+}
 
+body {
+    width: 85%;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav {
+    width: 80%;
+    height: 100%;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid red;
+}
+
+nav ul li {
+    display: table-cell;
+}
+
+li.menu a  {
+    text-align: center;
+}
+
+img.logo {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    vertical-align: middle;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0 0.5em;
+    padding: 0.5em;
+}
+
+nav li.menu:hover{
+    background-color: gray;
+}
+
+main {
+    clear: both;
+}
 
